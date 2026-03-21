@@ -11,7 +11,7 @@ function App() {
     <>
       <h1>React World on the go ....</h1>
 
-      <Suspense fallback={<h1>dara khankir pola ....</h1>}>
+      <Suspense fallback={<h1>wait for loading ....</h1>}>
         <Countries CountriesPromise={CountriesPromise}></Countries>
 
       </Suspense>
